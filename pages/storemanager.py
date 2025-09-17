@@ -17,6 +17,7 @@ sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/../'))
 from helpers_shop import ID_TO_NAME, NAME_TO_ID
 from shop_mapping import SHOP_NAME_MAP, get_postcode_by_id
 from helpers_normalize import normalize_vemcount_response
+from helpers_knmi import fetch_knmi_48h_summary
 
 API_URL            = st.secrets["API_URL"]
 OPENAI_API_KEY     = st.secrets.get("OPENAI_API_KEY", "")

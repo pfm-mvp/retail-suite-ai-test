@@ -1,15 +1,14 @@
 # shop_mapping.py
 # ✅ Enkelvoudige bron: id → {name, region, postcode}
 SHOP_NAME_MAP = {
-    32224: {"name": "Amersfoort", "region": "Noord NL", "postcode": "3811"},
-    31977: {"name": "Amsterdam",  "region": "Noord NL", "postcode": "1012"},
-    31831: {"name": "Den Bosch",  "region": "Zuid NL",  "postcode": "5211"},
-    32872: {"name": "Haarlem",    "region": "Noord NL", "postcode": "2011"},
-    32319: {"name": "Leiden",     "region": "Noord NL", "postcode": "2311"},
-    32871: {"name": "Maastricht", "region": "Zuid NL",  "postcode": "6211"},
-    30058: {"name": "Nijmegen",   "region": "Zuid NL",  "postcode": "6511"},
-    32320: {"name": "Rotterdam",  "region": "Zuid NL",  "postcode": "3011"},
-    32204: {"name": "Venlo",      "region": "Zuid NL",  "postcode": "5911"},
+    29658: {"name": "Amsterdam", "region": "Noord NL", "postcode": "3811"},
+    29679: {"name": "Apeldoorn",  "region": "Noord NL", "postcode": "7331"},
+    29683: {"name": "Den Haag",  "region": "Zuid NL",  "postcode": "2511"},
+    29669: {"name": "Gouda",    "region": "Noord NL", "postcode": "2801"},
+    29771: {"name": "Haarlem",     "region": "Noord NL", "postcode": "2011"},
+    29770: {"name": "Leiden", "region": "Zuid NL",  "postcode": "2311"},
+    28704: {"name": "Rotterdam",  "region": "Zuid NL",  "postcode": "3087"},
+    29691: {"name": "Tilburg",      "region": "Zuid NL",  "postcode": "5038"},
 }
 
 # Helper: haal 4-cijferige postcode op (letters worden gestript)
